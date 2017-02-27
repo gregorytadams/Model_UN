@@ -24,7 +24,7 @@ class Team:
 		self.name = name
 		self.num_delegates = num_delegates
 		self.preferences = preferences
-		self.picks =  list(range(len(preferences)))[::int(len(preferences)/num_delegates)]
+		self.picks =  list(range(len(preferences)))[::round(len(preferences)/num_delegates)]
 		self.assigned_committees = []
 
 
