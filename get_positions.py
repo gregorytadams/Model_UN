@@ -10,18 +10,6 @@ Current known problems:
 - Bias towards double delegate committees 
 '''
 
-'''
-Problems solved:
-- handling large teams (more delegates than there are committees).
-    Solution: splitting those teams into multiple teams and assigning them seperately
-- distribute picks for small teams
-    Solution: evenly selects picks from possible picks
-- make sure you don't assign a school a double del when they only have one spot left.
-    Solution: Assign the double del committee and drop their least-wanted single del committee 
-- read column names from dataset (ew)
-    Solution: renames columns
-'''
-
 
 class Team:
 
