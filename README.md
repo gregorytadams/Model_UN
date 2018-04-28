@@ -8,7 +8,13 @@ This algorithm replaces the ~100 man-hours of committee assignment negotiations 
 
 For any questions, please reach out to gregorytadams@gmail.com
 
+Algorithm is get_positions.py.
+   Takes in school preferences and committee information (see CSVs for formatting)
+   Outputs school assignments (to send to schools) and committee assignments (to give to committee chairs)
+All CSVs are randomized test data.  
+
 --
+
 Copyright (c) 2017, Gregory T Adams
 All rights reserved.
 
